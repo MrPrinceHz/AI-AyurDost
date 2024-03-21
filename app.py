@@ -4,7 +4,7 @@ from langchain import HuggingFaceHub,PromptTemplate, LLMChain
 #from langchain.schema import StrOutputParser
 #from langchain.prompts import ChatPromptTemplate
 
-os.environ['API_KEY']="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"
+os.environ['API_KEY']="your_api_key"
 
 model_id = 'google/gemma-7b-it'
 falcon_llm = HuggingFaceHub(huggingfacehub_api_token=os.environ['API_KEY'],
